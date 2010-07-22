@@ -1,1 +1,0 @@
-#bnco de dados
