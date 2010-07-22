@@ -6,16 +6,17 @@
     @license: GNU GPL.
 """
 
-from sqlalchemy import Table, Column, Integer, String, MetaData, ForeignKey
-
-metadata = MetaData()
-
-#metadata.create_all(engine)
-
+from sqlalchemy import Table, Column, Integer, String, MetaData, ForeignKey, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 
+metadata = MetaData()
 Base = declarative_base()
+
 class Song(Base):
+    """
+    Class used to persist songs
+    """
+    
     __tablename__ = 'songs'
     
     id = Column(Integer, primary_key=True)
