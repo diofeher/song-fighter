@@ -1,21 +1,19 @@
-import pygame
-from pygame.locals import *
-import time
 
+import time
+import subprocess
 
 class Player(object):
-    
-    def load_sound(self, full_path):
+
+    def play(self, full_path):
+        proc = subprocess.Popen(['mplayer', full_path])
         
-        try:
-            self.music = pygame.mixer.Sound(full_path)
-        except pygame.error, message:
-            print 'Cannot load sound:', wav
-            raise SystemExit, message
-        return self.music
+        time.sleep(3)
+        print 'matando a musica agora!'
+        proc.kill()
+        
+
+if __name__ == "__main__":
     
-    def play(self):
-        self.music.play()
-        time.sleep(10)
-        self.music.fadeout()
+    player = Player()
+    player.play("/home/flavio/devel/tw/musics/comanche.mp3")
         
