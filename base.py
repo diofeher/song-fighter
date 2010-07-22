@@ -1,10 +1,9 @@
-#!/usr/bin/env python
-# encoding: utf-8
+# -*- coding: utf-8 -*-
 """
-__init__.py
+    Base
 
-Created by Diogenes Herminio on 2010-07-21.
-Copyright (c) 2010 __MyCompanyName__. All rights reserved.
+    @copyright: 2010 Diogenes Augusto <diofeher@gmail.com>
+    @license: GNU GPL.
 """
 
 from models import Song

@@ -1,10 +1,9 @@
-#!/usr/bin/env python
-# encoding: utf-8
+# -*- coding: utf-8 -*-
 """
-interface.py
+    Player
 
-Created by Diogenes Herminio on 2010-07-21.
-Copyright (c) 2010 All rights reserved.
+    @copyright: 2010 Diogenes Augusto <diofeher@gmail.com>
+    @license: GNU GPL.
 """
 
 import os

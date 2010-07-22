@@ -1,1 +1,11 @@
 # Projeto Song Fighter do Code Jam da Thought Works
+
+Dependências
+===============
+Pygame
+SQLAlchemy
+
+
+Execução
+===============
+python ui.py

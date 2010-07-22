@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+    Models
+
+    @copyright: 2010 Diogenes Augusto <diofeher@gmail.com>
+    @license: GNU GPL.
+"""
+
 from sqlalchemy import Table, Column, Integer, String, MetaData, ForeignKey
 
 metadata = MetaData()

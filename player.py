@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+    Player
+
+    @copyright: 2010 Flavio Ribeiro <email@flavioribeiro.com>
+    @license: GNU GPL.
+"""
 
 import time
 import subprocess

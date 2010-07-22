@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+    Ui
+
+    @copyright: 2010 Flavio Ribeiro <email@flavioribeiro.com>
+    @license: GNU GPL.
+"""
+
 from pygame.locals import *
 import pygame
 import os

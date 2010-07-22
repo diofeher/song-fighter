@@ -1,11 +1,11 @@
-#!/usr/bin/env python
-# encoding: utf-8
+# -*- coding: utf-8 -*-
 """
-client.py
+    Player
 
-Created by Diogenes Herminio on 2010-07-21.
-Copyright (c) 2010 __MyCompanyName__. All rights reserved.
+    @copyright: 2010 Diogenes Augusto <diofeher@gmail.com>
+    @license: GNU GPL.
 """
+
 from interface import get_musics, create_musics, update_count
 from sqlalchemy.orm import sessionmaker
 from base import engine
