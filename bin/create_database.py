@@ -7,7 +7,7 @@
     @license: GNU GPL.
 """
 
-from models import Song
+from song_fighter.models import Song
 import settings
 
 if __name__=="__main__":        
