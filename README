@@ -5,7 +5,7 @@ Dependências
 Pygame
 SQLAlchemy
 
-
 Execução
 ===============
-python ui.py
+python bin/create_databases.py to create databases
+python ui.py to run
